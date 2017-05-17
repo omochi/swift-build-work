@@ -1,0 +1,42 @@
+[submodule "repo/swift"]
+	path = repo/swift
+	url = https://github.com/apple/swift.git
+[submodule "repo/clang"]
+	path = repo/clang
+	url = https://github.com/apple/clang.git
+[submodule "repo/cmark"]
+	path = repo/cmark
+	url = https://github.com/apple/cmark.git
+[submodule "repo/compiler-rt"]
+	path = repo/compiler-rt
+	url = https://github.com/apple/compiler-rt.git
+[submodule "repo/llbuild"]
+	path = repo/llbuild
+	url = https://github.com/apple/llbuild.git
+[submodule "repo/lldb"]
+	path = repo/lldb
+	url = https://github.com/apple/lldb.git
+[submodule "repo/llvm"]
+	path = repo/llvm
+	url = https://github.com/apple/llvm.git
+[submodule "repo/ninja"]
+	path = repo/ninja
+	url = https://github.com/apple/ninja.git
+[submodule "repo/swift-corelibs-foundation"]
+	path = repo/swift-corelibs-foundation
+	url = https://github.com/apple/swift-corelibs-foundation.git
+[submodule "repo/swift-corelibs-libdispatch"]
+	path = repo/swift-corelibs-libdispatch
+	url = https://github.com/apple/swift-corelibs-libdispatch.git
+[submodule "repo/swift-corelibs-xctest"]
+	path = repo/swift-corelibs-xctest
+	url = https://github.com/apple/swift-corelibs-xctest.git
+[submodule "repo/swift-integration-tests"]
+	path = repo/swift-integration-tests
+	url = https://github.com/apple/swift-integration-tests.git
+[submodule "repo/swift-xcode-playground-support"]
+	path = repo/swift-xcode-playground-support
+	url = https://github.com/apple/swift-xcode-playground-support.git
+[submodule "repo/swiftpm"]
+	path = repo/swiftpm
+	url = https://github.com/apple/swiftpm.git

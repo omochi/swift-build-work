@@ -21,7 +21,7 @@
 	url = https://github.com/apple/swift-llvm.git
 [submodule "repo/ninja"]
 	path = repo/ninja
-	url = https://github.com/apple/swift-ninja.git
+	url = https://github.com/ninja-build/ninja.git
 [submodule "repo/swift-corelibs-foundation"]
 	path = repo/swift-corelibs-foundation
 	url = https://github.com/apple/swift-corelibs-foundation.git
@@ -39,4 +39,4 @@
 	url = https://github.com/apple/swift-xcode-playground-support.git
 [submodule "repo/swiftpm"]
 	path = repo/swiftpm
-	url = https://github.com/apple/swiftpm.git
+	url = https://github.com/apple/swift-package-manager.git

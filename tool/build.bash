@@ -1,8 +1,11 @@
 #!/bin/bash
 set -ue
 cd "$(dirname "$0")/.."
+mkdir -p log
 
-$(pwd)/repo/swift/utils/build-script \
+log_file="log/log_$(date +%Y-%m-%d_%H-%M-%S).txt"
+
+repo/swift/utils/build-script \
 --preset-file="$(pwd)/tool/presets.ini" \
 --preset-file="$(pwd)/repo/swift/utils/build-presets.ini" \
 --preset="omochi" \
@@ -17,4 +20,5 @@ darwin_toolchain_display_name_short="Swift 4.0 2017-05-11-a" \
 darwin_toolchain_xctoolchain_name="swift-4.0-2017-05-11-a" \
 darwin_toolchain_alias="swift-4.0-2017-05-11-a" \
 darwin_toolchain_version="4.0.2017051101" \
---jobs=4
+--jobs=2 \
+> "$log_file"

@@ -17,4 +17,4 @@ darwin_toolchain_display_name_short="Swift 4.0 2017-05-11-a" \
 darwin_toolchain_xctoolchain_name="swift-4.0-2017-05-11-a" \
 darwin_toolchain_alias="swift-4.0-2017-05-11-a" \
 darwin_toolchain_version="4.0.2017051101" \
---jobs=1
+--jobs=4

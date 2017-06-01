@@ -3,25 +3,25 @@
 	url = https://github.com/apple/swift.git
 [submodule "repo/clang"]
 	path = repo/clang
-	url = https://github.com/apple/clang.git
+	url = https://github.com/apple/swift-clang.git
 [submodule "repo/cmark"]
 	path = repo/cmark
-	url = https://github.com/apple/cmark.git
+	url = https://github.com/apple/swift-cmark.git
 [submodule "repo/compiler-rt"]
 	path = repo/compiler-rt
-	url = https://github.com/apple/compiler-rt.git
+	url = https://github.com/apple/swift-compiler-rt.git
 [submodule "repo/llbuild"]
 	path = repo/llbuild
-	url = https://github.com/apple/llbuild.git
+	url = https://github.com/apple/swift-llbuild.git
 [submodule "repo/lldb"]
 	path = repo/lldb
-	url = https://github.com/apple/lldb.git
+	url = https://github.com/apple/swift-lldb.git
 [submodule "repo/llvm"]
 	path = repo/llvm
-	url = https://github.com/apple/llvm.git
+	url = https://github.com/apple/swift-llvm.git
 [submodule "repo/ninja"]
 	path = repo/ninja
-	url = https://github.com/apple/ninja.git
+	url = https://github.com/ninja-build/ninja.git
 [submodule "repo/swift-corelibs-foundation"]
 	path = repo/swift-corelibs-foundation
 	url = https://github.com/apple/swift-corelibs-foundation.git
@@ -39,4 +39,4 @@
 	url = https://github.com/apple/swift-xcode-playground-support.git
 [submodule "repo/swiftpm"]
 	path = repo/swiftpm
-	url = https://github.com/apple/swiftpm.git
+	url = https://github.com/apple/swift-package-manager.git

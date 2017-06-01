@@ -8,7 +8,7 @@ $(pwd)/repo/swift/utils/build-script \
 --preset="omochi" \
 install_destdir="$(pwd)/out/install" \
 installable_package="$(pwd)/out/swift-4.0.tar.gz" \
-install_toolchain_dir="$(pwd)/out/toolchain" \
+install_toolchain_dir="toolchain" \
 install_symroot="$(pwd)/out/symroot" \
 symbols_package="$(pwd)/out/swift-4.0-symbols.tar.gz" \
 darwin_toolchain_bundle_identifier="org.swift.swift" \
